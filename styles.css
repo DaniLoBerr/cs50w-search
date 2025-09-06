@@ -8,6 +8,7 @@ body {
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
 /* Navigation bar */
 nav {
 	min-height: 10vh;
@@ -93,4 +94,79 @@ main {
 
 .main form .buttons .button:hover {
 	border-color: #cccccc;
+}
+
+
+/* Advanced Search Header */
+.advanced-header {
+	padding: 30px;
+	border-bottom: 1px #bbbbbb77 solid;
+}
+
+.advanced-header h1 {
+	font-size: x-large;
+	font-weight: 400;
+	color: #ff2200;
+	margin-left: 30px;
+}
+
+
+/* Advanced Search Main */
+.main-advanced {
+	padding: 60px;
+}
+
+.main-advanced h2 {
+	font-size: 1.25rem;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+
+.main-advanced form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.main-advanced form .input-field {
+	display: flex;
+	justify-content: space-between;
+	max-width: 50vw;
+}
+
+.main-advanced form label {
+	flex: 1;
+	min-width: 200px;
+	margin-right: 15px;
+}
+
+.main-advanced form input {
+	flex: 3;
+	height: 35px;
+	padding-left: 15px;
+	border: 1px #cccccc solid;
+	border-radius: 3px;
+	box-shadow: 0px -1px 0px 0px #cccccc;font-size: 0.9rem;
+	font-size: 1.1rem;
+}
+
+.main-advanced form input:focus {
+	outline: 1px #0066ff solid;
+	box-shadow: inset 0 1px 3px 0 #cccccc;
+}
+
+.main-advanced form input[type="submit"] {
+	flex: 0;
+	max-width: 160px;
+	height: 40px;
+	padding: 10px 20px;
+	margin-left: 30px;
+	background-color: #0077ff;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 0.9rem;
+}
+
+.main-advanced form input[type="submit"]:hover {
+	background-color: #0066ff;
 }
